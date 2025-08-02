@@ -1,0 +1,507 @@
+@import url("./global.css");
+
+/* ------------ HEADER ------------ */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-neutral-silver);
+}
+
+.logo {
+  padding: 30px 0px;
+}
+
+.nav-header ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.nav-header ul a {
+  text-decoration: none;
+  color: #18191f;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.btn-login {
+  color: var(--color-primary);
+  background-color: transparent;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-SignUp {
+  color: var(--color-netral-white);
+  padding: 10px 20px;
+  background-color: var(--color-primary);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-header {
+  gap: 14px;
+  padding: 22px 0px;
+}
+
+/* ------------ FIM HEADER ------------ */
+
+/* ------------ MAIN ------------ */
+
+main {
+  display: flex;
+  background-color: var(--color-netral-silver);
+  align-items: center;
+  justify-content: center;
+  gap: 104px;
+  padding: 96px 0px;
+}
+
+.content-lessons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 657px;
+}
+
+h1 {
+  font-size: 64px;
+  color: var(--color-netral-d_grey);
+  font-weight: 600;
+}
+
+.content-lessons h1 span {
+  color: var(--color-primary);
+}
+
+/* ------------ FIM MAIN ------------ */
+
+/* ------------ OUR CLIENTS ------------ */
+
+.our-client {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.our-client p {
+  margin-top: 8px;
+}
+
+.logo-clients {
+  display: flex;
+  justify-content: center;
+  gap: 136px;
+  padding: 25px 0px;
+  margin-top: 16px;
+}
+
+/* ------------ FIM OUR CLIENTS ------------ */
+
+/* ------------ MANAGE SYSTEM ------------ */
+
+.manage-system {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.manage-system h2 {
+  width: 542px;
+  margin: 0 auto;
+}
+
+#manage-system-subtitle {
+  margin-top: 8px;
+}
+
+.cards-container {
+  display: flex;
+  margin-top: 16px;
+  gap: 127.5px;
+  justify-content: center;
+}
+
+.cards-container article {
+  width: 299px;
+  box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+  padding: 24px 16px;
+  text-align: center;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.cards-container article:hover {
+  box-shadow: 0px 8px 12px rgba(171, 190, 209, 0.5);
+  transform: translateY(-8px);
+}
+
+.cards-container article img {
+  width: 65px;
+  height: 56px;
+}
+
+.cards-container article h3 {
+  color: var(--color-neutral-d_grey);
+  font-size: 28px;
+  margin-bottom: 8px;
+  width: 231px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cards-container article p {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ------------ FIM MANAGE SYSTEM ------------ */
+
+.pixelgrade {
+  display: flex;
+  justify-content: center;
+  gap: 49px;
+  margin-top: 48px;
+  padding: 52px;
+}
+
+.pixelgrade-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 601px;
+}
+
+.pixelgrade-content h2 {
+  width: 564px;
+}
+
+.pixelgrade-content p {
+  font-size: var(--font-body3-size);
+  line-height: 20px;
+}
+
+/*-- ------------ FIM PIXEL GRADE ---------- --*/
+
+/*-- ------------  HELPING LOCAL ---------- --*/
+.Helping-local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 204px;
+  padding: 64px;
+  background-color: var(--color-netral-silver);
+  margin-top: 48px;
+}
+
+.Helping-local-content {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.Helping-local-content h2 span {
+  color: var(--color-primary);
+}
+
+.Helping-local-content p {
+  color: #18191f;
+}
+
+.Helping-local-statics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+
+.Helping-local-items {
+  display: flex;
+  gap: 16px;
+}
+
+/*-- ------------ FIM HELPING LOCAL ---------- --*/
+
+/*-- ------------ INICIO how design  ---------- --*/
+.how-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0px;
+  gap: 49.47px;
+}
+
+.how-design-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 601px;
+  gap: 16px;
+}
+.how-design-content h2,
+.how-design-content p {
+  width: 601px;
+}
+
+.how-design-content p {
+  font-size: var(--font-body3-size);
+}
+
+/*-- ------------ FIM how design  ---------- --*/
+
+/*-- ------------ inicio customer  ---------- --*/
+.customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 78px;
+  padding: 32px;
+  background-color: var(--color-netral-silver);
+}
+
+.customer-content {
+  display: flex;
+  flex-direction: column;
+  width: 748px;
+  gap: 32px;
+  line-height: 24px;
+}
+
+.customer-signature {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.customer-signature h2 {
+  color: var(--color-primary);
+  font-size: var(--font-headline-4size);
+}
+
+.customer-signature p {
+  color: var(--color-netral-l_grey);
+}
+
+.container-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.customer-items {
+  display: flex;
+  gap: 41px;
+}
+
+.customer-items img {
+  width: 48px;
+}
+
+/*-- ------------ FIM customer  ---------- --*/
+
+/*-- ------------ inicio Caring marketing  ---------- --*/
+
+.caring-marketing {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.caring-marketing p {
+  width: 628px;
+  margin: 0 auto;
+}
+
+.caring-marketing-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+  gap: 24px;
+}
+
+.caring-marketing-cards {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  position: relative;
+  align-items: center;
+}
+
+
+
+.caring-cards-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(171, 190, 209, 0.4);
+  background-color: var(--color-netral-silver);
+  gap: 16px;
+  width: 317px;
+  position: absolute;
+  top: 190px;
+}
+
+.caring-cards-content h3 {
+  font-size: var(--font-headline-4size);
+  font-weight: var(--font-headline-4-weight);
+  color: var(--color-netral-grey);
+  width: 280px;
+}
+
+/*-- ------------ FIM Caring marketing  ---------- --*/
+
+/* <!-- ------------ INICIO Pellentesque  ---------- -- */
+.Pellentesque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 32px 0px;
+  margin-top: 94.6px;
+  background-color: var(--color-netral-silver);
+}
+
+.Pellentesque h2 {
+  font-size: var(--font-headline-1-size);
+  width: 722px;
+  text-align: center;
+}
+
+.Pellentesque div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-primary);
+  border-radius: 4px;
+}
+
+.Pellentesque div a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--color-netral-white);
+  font-size: var(--font-body2-size);
+  padding: 14px 32px;
+  gap: 8px;
+}
+
+/* <!-- ------------ fim Pellentesque  ---------- --> */
+
+/* <!-- ------------ inicio footer ---------- --> */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 64px 0px;
+  gap: 269px;
+  background-color: var(--color-netral-black);
+}
+
+.copyright-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.copyright-reserved p {
+  color: var(--color-netral-silver);
+}
+
+.copyright-reserved p:nth-of-type(1) {
+  margin-bottom: 8px;
+}
+.footer-socials {
+  display: flex;
+  gap: 16px;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 7.47px;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.social-icon:hover {
+  background-color: var(--color-primary);
+  transform: translateY(-5px);
+}
+
+/* .social-icon:hover img:hover{
+    filter: invert(1); inverte a cor do icone
+} */
+
+.social-icon a {
+  display: flex;
+}
+
+.footer-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 97px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.footer-container h2 {
+  color: var(--color-netral-white);
+  font-size: var(--font-headline-4size);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: var(--font-body3-size);
+ 
+}
+
+
+
+.footer-links li:hover{
+    color: var(--color-primary);
+    transform: translateX(10px);
+    transition: 0.3s;
+}
+
+.footer-container form{
+    display: flex;
+    align-items: center;
+    
+}
+.footer-container form input{
+    display: flex;
+    padding: 10px 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #D9DBE1;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+
+}
+
+.footer-container form input::placeholder{
+    color: #D9DBE1;
+}
+
+.footer-container form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8.8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}
+
+.footer-container form button:hover{
+    background-color: var(--color-primary);
+}
+
+/* <!-- ------------ fim footer  ---------- --> */

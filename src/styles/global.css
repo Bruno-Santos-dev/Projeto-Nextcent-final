@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);    
+}
+
+:root{
+
+    /* Configurações das cores */
+
+    --color-netral-black: #263238;
+    --color-netral-d_grey: #4D4D4D;
+    --color-netral-grey: #717171;
+    --color-netral-l_grey: #89939E;
+    --color-netral-grey-blue: #ABBED1;
+    --color-netral-silver: #F5F7FA;
+    --color-netral-white: #FFFFFF;
+
+    --color-primary: #4CAF4F;
+    --color-secondary: #263238;
+    --color-info: #2194f3;
+
+    --color-shade1: #43A046;
+    --color-shade2: #388E3B;
+    --color-shade-3: #237D31;
+    --color-shade-4: #1B5E1F;
+    --color-shade-5: #103E13;
+
+    --color-tint1: #66BB69;
+    --color-tint2: #81C784;
+    --color-tint3: #A5D6A7;
+    --color-tint4: #C8E6C9;
+    --color-tint5: #E8F5E9;
+
+    --color-action-warnig: #FBC02D;
+    --color-action-error: #E53835;
+    --color-action-sucess: #2E7D31;
+
+    /* Configurações de Fontes */
+    --font-family: "inter";
+
+    --font-headline-1-size: 64px;
+    --font-headline-1-weight: "600";
+
+    --font-headline-2-size: 36px;
+    --font-headline-2-weight: 600;
+
+    --font-headline-3-size: 28px;
+    --font-headline-3-weight: 600;
+
+    --font-headline-4size: 20px;
+    --font-headline-4-weight: 600;
+
+    --font-body1-size: 18px;
+    --font-body1-weight-regular: 400;
+    --font-body1-weight-medium: 500;
+
+    --font-body2-size: 16px;
+    --font-body2-weight-regular: 400;
+    --font-body2-weight-medium: 500;
+
+    --font-body3-size: 14px;
+    --font-body3-weight-regular: 400;
+    --font-body3-weight-medium: 500;
+
+    --font-body4-size: 12px;
+    --font-body4-weight-regular: 400;    
+    --font-body4-weight-medium: 500;    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.active-menu {
+    font-weight: 500 !important;
+}
+
+p{
+    color: var(--color-netral-grey);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-netral-white) ;
+    padding: 14px 32px;
+    border-radius: 4px;
+    align-self: flex-start; /*aqui foi adicionado por causa do botão, mas ele não preencher o espaço completamente*/
+    margin-top: 16px;
+}
+.btn-primary a{
+    color: var(--color-netral-white);
+}
+
+h2{
+    color: var(--color-netral-d_grey);
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+}
+
+.btn-navigation a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: var(--font-headline-4-weight);
+}
+
+ul{
+    list-style: none;
+    color: var(--color-netral-silver);
+}
+
