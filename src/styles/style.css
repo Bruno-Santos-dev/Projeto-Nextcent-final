@@ -48,6 +48,20 @@ header {
   padding: 22px 0px;
 }
 
+.menu-toggle{
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.menu-toggle span{
+  width: 30px;
+  height: 3px;
+  background-color: var(--color-netral-black);
+  border-radius: 2px;
+}
+
 /* ------------ FIM HEADER ------------ */
 
 /* ------------ MAIN ------------ */
@@ -505,3 +519,274 @@ footer {
 }
 
 /* <!-- ------------ fim footer  ---------- --> */
+
+
+/* adicionando responsividade */
+
+@media (max-width: 884px){
+
+  /* header */
+
+.menu-toggle{
+  display: flex;
+}
+.nav-header, .btn-header{
+  display: none;
+}
+
+/* fim header */
+h1{
+  font-size: 50px;
+}
+
+/* inicio main */ 
+main{
+  gap: 50px;
+}
+.content-lessons {
+  width: 350px;
+}
+/* fim main */ 
+
+/* inicio manage system */ 
+
+.cards-container{
+  gap: 10px;
+  scale: 0.9;
+}
+/* fim manage system */ 
+
+/* inicio pixelgrade */ 
+
+.pixelgrade{
+  gap: 10px;
+}
+.pixelgrade-content{
+  width: 500px;
+}
+/* fim pixelgrade */ 
+
+/* help local */
+.Helping-logcal{
+  gap: 50px;
+
+}
+.Helping-local-statics{
+  gap: 20px;
+}
+
+/* fim local */
+
+/* INICIO design */
+.how-design{
+  gap: 10px;
+}
+.how-design-content h2, .how-design-content p{
+  width: 500px;
+}
+
+/* fim design */
+
+/* INICIO SESSÃO TIM SMITH */
+.customer{
+  gap: 10px;
+}
+.customer-content{
+  width: 500px; 
+}
+.container-content{
+  flex-direction: column;
+}
+
+
+/* fim SESSÃO TIM SMITH */
+
+/* INICIO caring-marketing  */
+.caring-marketing-container{
+ 
+}
+
+/* fim caring-marketing  */
+
+/* footer  */
+footer{
+  gap: 80px;
+}
+/* fim footer  */
+
+}
+
+@media (max-width: 480px){
+
+  /* main */
+
+ 
+
+  main{
+    flex-direction: column-reverse;
+  }
+
+  h1{
+font-size: 32px;
+  }
+  main img{
+    width: 250px;
+    height: 250px;
+  }
+  
+   /* fim main */
+ /* INICIO OUR CLIENT */
+   .our-client{
+    
+    text-align: center;
+   }
+   .logo-clients{
+    gap: 5px;
+   }
+
+   /* FIM OUR CLIENT */
+
+    /* MANAGE SYSTEM */
+    .manage-system h2{
+      font-size: 30px;
+      width: 410px;
+      
+    }
+
+    .cards-container{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /*FIM MANAGE SYSTEM */
+
+    /*PIXELGRADE */
+    .pixelgrade{
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 16px;
+    }
+    .pixelgrade img{
+    width: 300px;
+    height: 250px;
+    }
+
+    .pixelgrade-content{
+      flex-direction: column;
+      width: 400px;
+    }
+    .pixelgrade-content h2{
+      font-size: 32px;
+      width: 410px;
+      padding: 0px 16px;
+      
+    }
+    .pixelgrade-content p{
+      font-size: 15px;
+      width: 340px;
+      padding: 0px 16px;
+      
+    }
+    .btn-primary{
+    margin-left: 16px;
+      
+      
+    }
+    /*FIM PIXELGRADE */
+
+    /* INICIO HELPING */
+.Helping-local{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+    /* FIM HELPING */
+
+    /* INICIO design */
+    .how-design{
+      flex-direction: column;
+      padding: 0px 16px;
+    }
+    .how-design img{
+    width: 300px;
+    height: 250px;
+    }
+    .how-design-content h2{
+      font-size: 32px;
+      width: 410px;
+      padding: 0px 32px;
+    }
+
+    .how-design-content p{
+      font-size: 15px;
+      width: 350px;
+      
+    }
+    .how-design-content .btn-primary{
+      margin-left: 128px;
+      
+    }
+
+    /* INICIO design */
+
+    /* TIM SMITH */
+    .customer{
+      flex-direction: column;
+      align-items: center;
+     
+    }
+    .customer p{
+      padding: 0px 68px;
+      
+    }
+    .customer-signature h2{
+      padding: 0px 68px;
+    }
+    .customer-items{
+      gap: 10px;
+    }
+    
+
+    /* TIM SMITH */
+
+    /* caring-marketing  */
+    .caring-marketing p{
+      width: 350px;
+    }
+    .caring-marketing-container{
+      flex-direction: column;
+      align-items: center;
+      gap: 60px;
+      
+    }
+
+    /* fim caring-marketing  */
+
+    /* Pellentesque */
+    .Pellentesque h2{
+      width: 400px;
+      font-size: 40px;
+      
+      
+    }
+
+    /* fim Pellentesque */
+
+    /* footer */
+
+    footer{
+      flex-direction: column;
+      
+      
+    }
+    
+    .footer-navigation{
+      flex-direction: column;
+      padding: 0px 16px;
+      
+    } 
+    
+     /* fim footer */
+}
